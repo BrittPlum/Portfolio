@@ -7,27 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
 </head>
 
 <body class="d-flex flex-column h-100">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Brittany Plummer</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#About-Me">About Me</a>
+            <a class="nav-link active" aria-current="page" href="#Project">Project</a>
+            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
           </div>
         </div>
       </div>
+      <a class="btn btn-dark bi bi-github mx-2" href="https://github.com/BrittPlum " target="_blank"></a>
+      <a class="btn btn-dark bi bi-linkedin mx-2" href="https://www.linkedin.com/in/brittany-plummer-25manageme" target="_blank"></a>
+     <a class="btn btn-dark bi bi-facebook mx-2" href="https://www.facebook.com/brittplum" target="_blank"></a>
     </nav>
   </header>
   <main>
@@ -35,56 +42,39 @@
       <div class="row text-center introText">
         <div class="col-lg-4 col-md-12 col-sm-12">
           <h2>Brittany Plummer</h2>
-          <p>Intro Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ea, qui cumque iure possimus at. Aut
-            asperiores laudantium maiores harum eaque modi laboriosam nam ex, voluptate quas consectetur, repudiandae
-            repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti distinctio labore blanditiis
-            veritatis animi, quo nemo consequatur eveniet velit ducimus hic aliquam voluptatibus nulla possimus voluptas
-            suscipit in. Delectus, odio.</p>
+          <a class="btn btn-light px-5 viewMyWorkBtn" href="#sampleWork">View My Work</a>
         </div>
       </div>
     </div>
     <section class="section-one text-center">
-      <h3>PROFILE</h3>
-      <p>I am a begining web developer. My progrtaming skills include a good knowledge of front end applications.</p>
+      <h1 class="p-4" id="About-Me">About Me</h1>
+      
       <div class="container">
         <div class="row">
           <div class="col">
-            <h4>About Me</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse a libero unde, repellat amet sint
-              quibusdam rerum beatae non suscipit. Vitae ad qui consequatur, sed laboriosam sequi nostrum consequuntur
-              reprehenderit.</p>
+            <p>I am a begining web developer. My programing skills include a good knowledge of front end applications.</p>
+              <div class="card class=h-100 d-inline-block style=width: 120px"></div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <b>Email:</b>
+                  <p>brittanyplummer@gmail.com</p>
+                  <b>Phone:</b>
+                  <p>+1 203-273-0697</p>
+                  <a class="btn btn-dark px-5 viewMyWorkBtn" href="" target="_blank" download>My Resume</a>
+                </h5>
+                
+             
+      </div>
           </div>
           <div class="col text-center">
-            <img src="." alt="Girl in a jacket" width="500" height="600">
-          </div>
-          <div class="col">
-            <h4>Details</h4>
-            <b>Name:</b>
-            <p>Brittany Plummer</p>
-            <b>Age:</b>
-            <p>33 years</p>
-            <b>Location:</b>
-            <p>Connecticut, USA</p>
-          </div>
+            <img class="rounded-circle m-3" src="./assests/pexels-pixabay-459335.jpg" alt="self picture" width="300" height="400"/>
+           </div>
         </div>
       </div>
     </section>
-    <section class="section-two">
+    <!-- <section class="section-two text-center">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <h1>About Me</h1>
-            <h6>Intro text</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sit laborum id inventore similique
-              quibusdam eius a! Quia perferendis atque odio qui eum illo rem doloremque obcaecati nulla, saepe
-              blanditiis?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit temporibus placeat hic, quasi explicabo
-              libero reiciendis vel ipsa! Delectus repudiandae pariatur laboriosam impedit consequuntur dolore aliquid,
-              alias libero soluta officia.</p>
-          </div>
-          <div class="col">
-            <div class="row">
-              <div class="col-sm-6">
+       
                 <div class="card class=h-100 d-inline-block style=width: 120px"></div>
                 <div class="card-body">
                   <h5 class="card-title">
@@ -92,17 +82,15 @@
                     <p>brittanyplummer@gmail.com</p>
                     <b>Phone:</b>
                     <p>+1 203-273-0697</p>
+                    <a class="btn btn-primary px-5 viewMyWorkBtn" href="" target="_blank" download>My Resume</a>
                   </h5>
                   <a href="https://github.com/BrittPlum " class="fab fa-github-square fa-w-14 fa-2x"></a>
                   <a href="https://www.linkedin.com/in/brittany-plummer-25manageme" class="fab fa-linkedin fa-w-14 fa-2x"></a>
                   <a href="https://www.facebook.com/brittplum" class="fab fa-facebook-square fa-w-14 fa-2x"></a>
-                </div>
-              </div>
-            </div>
-          </div>
+               
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- <section class="section-three">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -139,16 +127,136 @@
   I wanted to add an aditional feture that utilizes a carosel to show off the images of the projects I have completed so far so the viewer would be able to see the individule project images on a larger scale-->
   
 
+  <div class="contiainer-fluid">
+    <div class="row pt-5 pb-5 techSectionTit font text-center">
+      <h1 class="techIKnowTitle p-4">Technologies & Tools</h1>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5" >
+        <i class="fab fa-html5 fa-4x font"></i>
+          <h4>Html</h4>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fab fa-css3 fa-4x font"></i>
+          <h4>CSS</h4>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fab fa-bootstrap fa-4x font"></i>
+          <h4>Bootstrap</h4>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fab fa-js fa-4x font"></i>
+          <h4>javaScript</h4>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fas fa-code fa-4x font"></i>
+          <h4>jQuery</h4>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fab fa-node-js fa-4x"></i>
+          <h3>Node .js</h3>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fas fa-database fa-4x font"></i>
+          <h3>MySQL</h3>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fab fa-npm fa-4x font"></i>
+          <h3>npm packages</h3>
+      </div>
+      <div class="col-6 col-lg-4 col-md-2 col-sm-4 tech p-5">
+        <i class="fas fa-database fa-4x font"></i>
+          <h3>MongoDB</h3>
+      </div>
+    </div>
+  </div>
+
     <section class="section-four">
       <div class="container">
-    
+        <div class="row">
           <div class="section-title text-center">
-            <h2>PORTFOLIO</h2>
+            <h1 class="p-4" id="Projects">Projects</h1>
           </div>
-          <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-5 workCard">
+            <div class="card mx-auto" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/bookHunt1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Book Hunt</h5>
+                <p class="card-text">Meet your next read and see NYT Best Sellers</p>
+                <a href="https://srad25.github.io/Book-Hunt/" class="btn btn-dark" target="_blank">View Project</a>
+                <a href="https://github.com/srad25/Book-Hunt" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  mb-5 workCard">
+            <div class="card mx-auto" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/bookHunt1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Book Hunt</h5>
+                <p class="card-text">Meet your next read and see NYT Best Sellers</p>
+                <a href="https://srad25.github.io/Book-Hunt/" class="btn btn-dark" target="_blank">Walkthrough video</a>
+                <a href="https://github.com/srad25/Book-Hunt" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  mb-5 workCard">
+            <div class="card mx-auto" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/bookHunt1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Book Hunt</h5>
+                <p class="card-text">Meet your next read and see NYT Best Sellers</p>
+                <a href="https://srad25.github.io/Book-Hunt/" class="btn btn-dark" target="_blank">View Project</a>
+                <a href="https://github.com/srad25/Book-Hunt" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  mb-5 workCard">
+            <div class="card mx-auto" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/bookHunt1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Book Hunt</h5>
+                <p class="card-text">Meet your next read and see NYT Best Sellers</p>
+                <a href="https://srad25.github.io/Book-Hunt/" class="btn btn-dark" target="_blank">View Project</a>
+                <a href="https://github.com/srad25/Book-Hunt" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  mb-5 workCard">
+            <div class="card mx-auto" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/bookHunt1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Book Hunt</h5>
+                <p class="card-text">Meet your next read and see NYT Best Sellers</p>
+                <a href="https://srad25.github.io/Book-Hunt/" class="btn btn-dark" target="_blank">View Project</a>
+                <a href="https://github.com/srad25/Book-Hunt" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  mb-5 workCard">
+            <div class="card mx-auto" style="width: 18rem; height: 20rem;">
+              <img src="./assets/images/bookHunt1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Book Hunt</h5>
+                <p class="card-text">Meet your next read and see NYT Best Sellers</p>
+                <a href="https://srad25.github.io/Book-Hunt/" class="btn btn-dark" target="_blank">View Project</a>
+                <a href="https://github.com/srad25/Book-Hunt" class="btn btn-dark" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+            
+          
+          <!-- <div class="row">
             <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
               <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <div class="icon"><i ></i></div>
                 <h4 class="title"><a href="">Lorem Ipsum</a></h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
                   occaecati cupiditate non provident</p>
@@ -305,7 +413,7 @@
                   occaecati cupiditate non provident</p>
               </div>
             </div>
-          </div>
+          </div> -->
 
    
       </div>
@@ -313,43 +421,26 @@
 
 
     <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-title">
-          <span>Contact Me</span>
-          <h2>Contact Me</h2>
+      <div class="container fluid">
+        <div class="section-title text-center">
+          <h1 class="p-4" id="contact">Contact Me</h1>
         </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="row">
-            <div class="col-md-12">
-            <div class="info-box">
-              <i class="bx bx-share-alt"></i>
-              <h3>Social Profiles</h3>
-              <div class="social-links">
-                <a href="https://github.com/BrittPlum " class="fab fa-github-square fa-w-14 fa-2x"></a>
-                  <a href="https://www.linkedin.com/in/brittany-plummer-25manageme" class="fab fa-linkedin fa-w-14 fa-2x"></a>
-                  <a href="https://www.facebook.com/brittplum" class="fab fa-facebook-square fa-w-14 fa-2x"></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="info-box mt-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Me</h3>
-              <p>email@email.com</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="info-box mt-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Me</h3>
-              <p>+1 203 273 0697</p>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-     
+        
+        
+        <form class="d-flex flex-column px-4" action="mailto:brittanyplummer@gmail.com?subject=contact me&amp;" method="post" enctype="text/plain">
+          Name<br>
+          <input class="form-control" type="text" name="name" placeholder="Your Name"><br>
+          Email<br>
+          <input class="form-control" type="text" name="mail"  placeholder="Your Email"><br>
+         
+          
+          Message<br>
+          <textarea class="form-control" type="text" name="message" size="50" placeholder="Message"></textarea><br><br>
+          <input class="btn btn-dark mb-2" type="submit" value="Send">
+          <input class="btn btn-dark mb-2" type="reset" value="Reset">
+          </form>
+    
+<!--          
       <div class="col-md-12 col-lg=6">
         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
         <div class="row">
@@ -370,17 +461,15 @@
         <div class="text-center">
           <button type="submit">Send Message</button>
         </div>
-        </form>
+        </form> -->
       
         </section>
       
     
   </main>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
-  </script>
-  <script src="https://kit.fontawesome.com/00d60d9dd1.js" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="./assets/scripts/script.js"></script>
+  
 </body>
 
 </html>
