@@ -25,3 +25,13 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+
+.section-four {
+    height: 700px;
+}
+
+.imgcontainer {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
